@@ -6,6 +6,10 @@
         display: table;
     }
 
+    &--t-padding{
+        padding: 80px;
+    }
+
     &--gutters {
         margin-right: -65px;
     }
@@ -26,15 +30,11 @@
         margin-bottom: 1rem;
     }
 
-    &--t-padding{
-        padding: 80px;
-    }
-
     &--gutters-small > div {
         padding-right: 45px;
     }
 
-    &--small{
+    &--gutters-small{
         margin-right: -45px;
     }
 
