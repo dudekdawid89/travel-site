@@ -41,14 +41,13 @@ class RevealOnScroll {
         }
     }
 
-    hideInitially(){
+    hideInitially() {
         this.itemsToReveal.forEach(el => {
-            el.classList.add("reveal-item")
-            el.isRevealed = false
-    })  
-    this.itemsToReveal[this.itemsToReveal.length - 1].isLastItem = true
+          el.classList.add("reveal-item")
+          el.isRevealed = false
+        })
+        this.itemsToReveal[this.itemsToReveal.length - 1].isLastItem = true
+      }
     }
-
-}
-
+    
 export default RevealOnScroll;
