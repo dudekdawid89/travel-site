@@ -28,3 +28,4 @@ document.querySelectorAll('.open-modal').forEach(el => {
 if (module.hot) {
     module.hot.accept()
 }
+
